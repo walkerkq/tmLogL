@@ -1,11 +1,7 @@
 # tmLogL
 ### R Package with Log Likelihood Function for Text Mining
 
-This package contains one function: tmLogL. This function allows you to compare the log likelihood 
-of words between groups. To use, you must supply the grouping variable, text variable and group of interest. 
-The function compares the expected frequency of words in the group of interest and remaining text to 
-the observed frequency. Words with high log likelihood "surprisingly" occur more in the group of interest, 
-while words with negative log likelihood occur less often than expected in the group of interest.
+This package contains one function: tmLogL. This function allows you to compare the log likelihood of words between groups. To use, you must supply the grouping variable, text variable and group of interest. The function compares the expected frequency of words in the group of interest and remaining text to the observed frequency. Words with high log likelihood "surprisingly" occur more in the group of interest, while words with negative log likelihood occur less often than expected in the group of interest. This function has been employed in the past by my [Text Mining South Park](https://github.com/walkerkq/textmining_southpark) and [50 Years of Music Lyrics](https://github.com/walkerkq/musiclyrics) projects.
 
 ### Usage
 
